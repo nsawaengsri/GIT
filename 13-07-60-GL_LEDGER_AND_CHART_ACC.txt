@@ -1,0 +1,29 @@
+Understand the general ledger and the chart of accounts.
+- General ledger คือ บัญชีแยกประเภททั่วไปที่เก็บข้อมูลทางการเงิน 
+- Chart of account คือ ผังบัญชีที่แสดง (General ledger entries) ข้อมูลรายการข้อมูลทางการเงินทั้งหมดที่ผ่านการ POSTED 
+
+กระบวนการหลัก BUSINESS PROCESS คือ GENERAL LEDGER(บัญชีแยกประเภท) AND CONFIGURATION OF HOW DATA IS POSTED TO THE GENERAL LEDGER(วิธีการ POSTED ของข้อมูลไปยัง GL)
+
+Setup
+	General Ledger Setup
+		- การระบุวิธีการจัดการปัญหาทางบัญชีของ บริษัทคุณ 
+		- INCOULD -> Invoice rounding details (การปัดเศษใบแจ้งหนี้) , Address Formats, reporting currency (รายงานสกุลเงินที่ต้องใช้)	 
+	General Posting Setup
+		-set up combinations of general business and general product posting groups. 
+		- You fill in a line for each combination of business posting group and product posting group.
+		
+
+The Chart of Accounts
+- แสดง Account ทั้งหมดที่มีอยู่ โดยที่คุณ สามารถดู Report ที่แสดง General Ledgeer Entrie และ Balance คงเหลือ จากนั้นสามารถปิดบัญชีได้ (Income Statement งบกำไรขาดทุน)
+
+Account Categories (หมวดบัญชี)
+- คุณสามารถ Map General Ledger ให้เข้ากับ Account Categories ได้ตามโครงสร้างของคุณ
+- Categories 
+	assets = สินทรัพย์
+	Liabilities = หนี้สิน
+	Equity = ส่วนของผู้ถือหุ้น
+	Income = เงินได้
+	Cost of Goods Sold = ต้นทุนขาย
+	Expense = รายจ่าย
+	
+	

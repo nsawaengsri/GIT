@@ -1,0 +1,21 @@
+กระบวน SETUP หลักของ FINANCE PROCESS 
+- How you want to handle payments of your vendors (การทำจ่าย)
+- Setup fiscal periods (ระยะเวลางบประมาณ)
+- Set up additional currencies if you have international trade.(ตั้งค่าสกุลเงินเพิ่มเติม หากมีการค้าระหว่างปรเทศ)
+- Add new accounts to the existing chart of accounts. (การเพิ่มบัญชีใหม่ ในผังบัญชีที่มีอยู่)
+
+PAYMENT METHOD (วิธีการชำระเงิน)
+- การกำหนดการชำระเงิน จาก INVOID สามารถกำหนดการชำระเงินได้หลายวิธี เช่น BANK, CASH, CHECK or ACCOUNT 
+- การชำระเงินจะเชื่อมโยงกับ VENDOR เพื่อให้รู้ว่าจะต้องชำระเงินใบแจ้งหนี้กับ VENDOR รายใด
+
+FISCAL PERIODS
+- โดยปกติแล้ว 1 ปีงบประมาณ จะแบ่งออกเป็น 12 งวด แบ่งออกเป็นในแต่ละเดือน 
+
+CURRENCIE (สกุลเงิน๖
+-การกำหนดสกุลเงินที่ใช้สำหรับ ซื้อหรือขาย ระหว่างประเทศ
+
+Chart Account
+- จะแสดงให้เห็นถึง Ledger Account(บัญชีแยกประเภท) ที่แสดงข้อมูลการเงิน
+
+
+
