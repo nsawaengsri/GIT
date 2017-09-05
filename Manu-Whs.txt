@@ -1,0 +1,48 @@
+Manufacturing module มี 8 Modules ย่อยได้แก่
+- Production Design: โมดูลนี้จะเกี่ยวข้องกับการจัดการ Item,Production BOM,Routing,Family etc.
+โมดูลนี้หลักๆจะเกี่ยวข้องกับขั้นตอนการผลิต ที่สามารถระบุ Number ของ Raw Material, Finished Good ,Sub Assembly etc.
+ในโมดูลนี้จะบอกรายละเอียดทั้งหมดเกี่ยวกับการผลิตเช่น Production BOM, Number of sub matterials ที่ใข้ในการผลิตจนได้ออกมาเป็น 1 FG หรือองค์ประกอบของ FG (Sub Assembly)
+
+- Capacities
+ในส่วนของโมดูลนี้จะเกี่ยวข้องกับ Work Center,Machine Center ที่ใช้ในแต่ละกิจกรรมการผลิต  และจะบอกรายละเอียดทั้งหมดเกี่ยวกับ Work Center และ Machine Centers ทั้งหมดที่มีอยุ่ใน บริษัท
+
+- Planning เป็น Module ที่ใช้ในการดำเนินการวางแผนทึกกิจกรรมการผลิตขององค์กร ซึ่งการดำเนินการจะมี 2 แบบ MRP(Matterial Requirement Planning) MSP etc.
+
+- Execution Module นี้จะมีความสัมพันธ์กันกับขั้นตอนจาก Process after the planning จะเป็นขั้นตอนที่จะมีการสร้าง Work Order Create(Purchase) และรวมไปถึงการ Post ต่างๆจะเป็น FG POSTING
+- Costing จัดการกิจกรรมการคิดต้นทุนในระบบ 
+- History จัดการมุมมองของเอกสารหลังจากการโพส หรือการ Close work order คำสั่งทั้งหมดจะเก็บไว้ที่ History 
+- Periodic เป็นโมดูลจัดการกิจกรรมที่เป็น งวด ระยะเวลาทั้งหมดในระบบ
+- Setup ตั้งค่าทั้งหมดของ Manufacturing Module.
+-------------------------------------------------------------------------------------------
+Microsoft Dynamics NAV (Navision ) Modules
+7 Module หลักๆ 
+Finance Management : โมดูลที่เกี่ยวกับการจัดการการเงินทั้งหมดของบริษัท
+Sales & Marketing : การดำเนินการขายทั้งหมดของบริษัท 
+Purchase : การจัดหาซัพพลายเออร์เพื่อสั่งซื้อวัตถุดิบมาผลิตเป็น FG
+Warehouse : การติดตามการ Stock การ Acceptance Material รวมถึงปัญหาที่เกิดขึ้น ทั้งหมดจะจัดการใน Module นี้ 
+Human Resources: 
+Administrator: ผู้ดูแลระบบทั้งหมดของ NAV เช่นการ Setup Warehouse Employee
+
+-------------------------------------------------------------------------------------------
+Warehouse Module เกี่ยวข้องกับ การจัดกับ การจัดส่ง วัตถุดิบ ไปยังฝ่ายผลิต หลักๆในการจัดการจะเป็นทั้งแบบ Inbround,Outbound,Instrainsit
+8 sub module
+- Order & Contacts โมดูลนี้ประกอบด้วย Vendor Card, Customer Card, Purchase Order, Purchase Return Order, Sales Return
+, Sales Return Orders , Transfer Order ,Release Prod. Orders.
+
+- Planning & Execution - จัดการเกี่ยวกับ Item, Non-Stock Item, Stock Keeping Units, Shipment, Put away & Pick Work Sheets,
+Movement Work Sheet etc. หลักๆคือเป็น Function ที่จัดการเกี่ยวกับ Stock
+
+- Goods Handling Order By Order
+จัดการ Inventory Putway & Pick Worksheet and Reclass the Item, หลักๆคือจัดการเกี่ยวกับ Item Movement
+
+- Goods Handling Multiple Orders
+จัดการหลักกๆ Putaway,Pick Movements, Whe.Item Journals
+
+- Inventory 
+เป็นโมดูลจัดการกิจกรรม Stock ทั้งหมด  All the Stock Journal เช่น Item Journal, BOM Journal ,Item Reclass Journal , 
+Physical Inventory journal, Reveluation Journal ,Physical Inventory Counting Periods
+
+- Gate Entry จัดการกับ Inward and Outward
+- History เป็น Module ที่เก็บเอกสารทั้งหมดที่ Post ไว้ 
+- Setup ในส่วนนี้จะเกี่ยวข้องกับการ Setup 3 ส่วน คือ Inventory Setup,Warehouse Setup,Location 
+
